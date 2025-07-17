@@ -42,6 +42,17 @@
     margin-left: 20px;
     width: 100px;
     position: absolute;
+    
+}
+a.link-senai{
+    color: white;
+    text-decoration: none;
+}
+a.link-senai:hover{
+    color: white;
+    font-size: 21px;
+    text-decoration: underline;
+    transition-duration: 0.4;
 }
 .menu-opcoes{
     margin-left: 1000px;
