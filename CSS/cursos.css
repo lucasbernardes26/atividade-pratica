@@ -1,0 +1,132 @@
+
+.default {
+    background: rgb(247, 247, 247);
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    color:  black;
+    font-family:'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    text-align: center;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+.menu-cabecalho{
+    background:#004080;
+    color: white;
+    width: 1200px;
+    height: 45px;
+    box-sizing: border-box;
+  
+}
+
+.menu-rodape{
+    padding-top: 10px;
+    background:#004080;
+    color: white;
+    width: 1200px;
+    height: 45px;
+    box-sizing: border-box;
+    margin-top: 510px;
+}
+.rodape-texto{
+    
+    font-size: 12px;
+    box-sizing: border-box;
+}
+.menu-titulo{
+    text-align: left;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-top: 8px;
+    font-size: 20px;
+    margin-left: 20px;
+    width: 100px;
+    position: absolute;
+    
+}
+a.link-senai{
+    color: white;
+    text-decoration: none;
+}
+a.link-senai:hover{
+    color: white;
+    font-size: 21px;
+    text-decoration: underline;
+}
+.menu-opcoes{
+    margin-left: 1000px;
+    width: 200px;
+    padding-top: 14px;
+    text-align: left;
+    font-size: 12px;
+}
+.links-menu{
+    color: white;
+    text-decoration: none;
+    padding-left: 3px;
+
+}
+.links-menu:hover{
+    
+    color: white;
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+
+
+.titulo-caixa{
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #004080;
+    margin-top: 10px;
+}
+
+p{
+    margin-left: 20px;
+    font-size: 13px;
+    text-align: justify;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+p.um{
+    margin-top: 40px;
+
+}
+
+#caixa-principal{
+    position: absolute;
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    margin-left: 200px;
+    border-radius: 8px;
+    text-align: left;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+.curso1,.curso2,.curso3,.curso4,.curso5{
+    position: relative;
+    width: 400px;
+    height: 33.3%;
+    text-align: left;
+    display: inline-block;
+    background: white;
+}
+.curso1:hover,.curso2:hover,.curso3:hover,.curso4:hover{
+  
+    background: rgb(225, 225, 225);
+    transition-duration: 0.4s;
+}
+
+.curso5{
+    width: 800px;
+}
+.curso5:hover{
+    background: rgb(225, 225, 225);
+    transition-duration: 0.4s;
+}

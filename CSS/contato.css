@@ -1,0 +1,159 @@
+
+.default {
+    background: rgb(247, 247, 247);
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    color:  black;
+    font-family:'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    text-align: center;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+.menu-cabecalho{
+    background:#004080;
+    color: white;
+    width: 1200px;
+    height: 45px;
+    box-sizing: border-box;
+    margin-left: 0px;
+}
+
+.menu-rodape{
+    padding-top: 10px;
+    background:#004080;
+    color: white;
+    width: 1200px;
+    height: 45px;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+.rodape-texto{
+    
+    font-size: 12px;
+    box-sizing: border-box;
+}
+.menu-titulo{
+    text-align: left;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-top: 8px;
+    font-size: 20px;
+    margin-left: 20px;
+    width: 100px;
+    position: absolute;
+    
+}
+a.link-senai{
+    color: white;
+    text-decoration: none;
+}
+a.link-senai:hover{
+    color: white;
+    font-size: 21px;
+    text-decoration: underline;
+    transition-duration: 0.4;
+}
+.menu-opcoes{
+    margin-left: 1000px;
+    width: 200px;
+    padding-top: 14px;
+    text-align: left;
+    font-size: 12px;
+}
+.links-menu{
+    color: white;
+    text-decoration: none;
+    padding-left: 3px;
+
+}
+.links-menu:hover{
+    
+    color: white;
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+#caixa-principal{
+    background-image: url('/IMAGENS/pagina-contato.png');
+    background-size: cover;
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    margin-left: 200px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.texto-contato{
+    font-size: 10px;
+    color: black;
+    text-align: left;
+    margin-left:13px ;
+}
+.info-contato{
+    position: relative;
+    width: 270px;
+    height: 350px;
+    margin-left: 80px;
+    top: 70px;
+    background-color: rgb(247, 247, 247);
+    opacity: 0.85;
+    border-radius: 7px;
+   box-shadow: 0px 0px 15px rgb(255, 255, 255);
+
+}
+
+button{
+    font-family:'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif' ;
+    background-color: #004080;
+    color: white;
+    width: 100%;
+    border-radius: 4px;
+    vertical-align: middle;
+    height: 25px;
+    border: 1px solid black;
+}
+
+button:hover{
+    font-family:'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif' ;
+    background-color: #094e94;
+    color: white;
+    width: 100%;
+    text-decoration: underline;
+    transition-duration: 0.4;
+    border-radius: 4px;
+    vertical-align: middle;
+    height: 25px;
+    border: 1px solid black; 
+    cursor: pointer; 
+}
+
+.formulario1{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.formatacao{
+    border-radius: 5px;
+    width: 98%;
+    border: 1px solid black;
+}
+.formatacaotxtarea{
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color:white;
+    height: 70px;
+    width: 100%;
+    font-size: 14px;
+}
+.contato-texto{
+    text-align: left;
+    font-weight: bold;
+    top: 10px;
+    font-size: 25px;
+    width: 200px;
+    position: relative;
+}
