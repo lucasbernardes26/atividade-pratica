@@ -75,7 +75,7 @@ a.link-senai:hover{
 }
 
 #caixa-principal{
-    background-image: url('/IMAGENS/pagina-contato.png');
+    background-image: url('../IMAGENS/pagina-contato.png');
     background-size: cover;
     background-color: white;
     width: 800px;
